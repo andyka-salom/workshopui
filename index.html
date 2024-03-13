@@ -5,158 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AwesomeShoes</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      line-height: 1.6;
-      background-color: #f8f9fa;
-      color: #343a40;
-    }
-    .banner {
-      background-color: #17a2b8;
-      color: #ffffff;
-      padding: 10px 0;
-      text-align: center;
-    }
-
-    /* Navbar Styles */
-    .navbar {
-      background-color: #343a40;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      color: #ffffff;
-    }
-
-    .navbar-brand {
-      font-weight: bold;
-      color: #ffffff;
-    }
-
-    .navbar-brand:hover {
-      color: #ffffff;
-    }
-
-    .navbar-nav .nav-link {
-      font-size: 18px;
-      color: #343a40;
-    }
-
-    .navbar-nav .nav-link:hover {
-      color: #8B4513;
-    }
-
-    .carousel-item img {
-      height: 400px;
-      object-fit: cover;
-    }
-
-    .card {
-      border: none;
-      transition: transform 0.3s;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-    }
-
-    #about {
-        background-color: #333; 
-        padding: 50px 0; 
-        color: #ffffff
-    }
-
-    #about h2 {
-        color: #ffffff; 
-        font-size: 32px; 
-        font-weight: 700;
-        margin-bottom: 30px;
-    }
-
-    #about p {
-        color: #ffffff;
-        font-size: 18px;
-        line-height: 1.6;
-        margin-bottom: 20px;
-    }
-
-    #about ul {
-        list-style-type: none;
-        padding-left: 0; 
-        margin-bottom: 20px;
-        color: #ffffff
-    }
-
-    #about ul li {
-        font-size: 16px; 
-        margin-bottom: 10px;
-        color: #ffffff;
-    }
-
-    #about ul li:before {
-        content: "\2022"; 
-        color: #ffffff; 
-        font-size: 14px; 
-        margin-right: 10px; 
-    }
-
-    #services {
-      background-color: #f8f9fa;
-      padding: 60px 0;
-    }
-
-    #services h2 {
-      color: #343a40;
-    }
-
-    #contact {
-      background-color: #404447;
-      padding: 60px 0;
-      color: #ffffff
-    }
-
-    #contact h2 {
-      color: #ffffff;
-    }
-
-    /* Footer Styles */
-    footer {
-      background-color: #343a40;
-      color: #ffffff;
-      padding: 20px 0;
-      font-size: 14px;
-      text-align: center;
-    }
-    .service-item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-    .service-item2 {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        margin-left: 30%;
-    }
-
-    .service-item img {
-        margin-right: 20px;
-        max-width: 100%;
-        height: auto;
-        margin-right: 5%;
-    }
-    .service-item2 img {
-        margin-right: 20px;
-        max-width: 100%;
-        height: auto;
-        margin-right: 5%;
-    }
-
-
-    .service-item:nth-child(even) {
-        justify-content: flex-end;
-    }
-  </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -254,28 +103,32 @@
 
 
 <!-- About Section -->
-<section id="about">
+<section id="about" class="about-section">
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-12">
-                <h2>About Us</h2>
-                <p>Welcome to our shoe store! We are dedicated to providing you with the latest trends in footwear, ensuring comfort, style, and quality in every pair of shoes we offer.</p>
-                <p>With a passion for fashion and a commitment to excellence, we carefully curate our collection to cater to every taste and occasion. Whether you're looking for casual sneakers, elegant heels, or sturdy boots, we've got you covered.</p>
-                <h4>Our Mission</h4>
-                <p>Our mission is to help you step out in style, confident and ready to conquer the world. We believe that the right pair of shoes can elevate your look and boost your confidence, and we're here to make that happen.</p>
-                <h4>Our Values</h4>
-                <ul>
-                    <li>Quality Craftsmanship</li>
-                    <li>Customer Satisfaction</li>
-                    <li>Trendsetting Designs</li>
-                    <li>Comfort and Durability</li>
-                </ul>
-                <h4>Our Collection</h4>
-                <p>Explore our diverse range of shoes, carefully selected to meet your every need. From everyday essentials to statement pieces, we offer a variety of styles, colors, and sizes to suit your preferences.</p>
+                <div class="about-box">
+                    <h2>About Us</h2>
+                    <p>Welcome to our shoe store! We are dedicated to providing you with the latest trends in footwear, ensuring comfort, style, and quality in every pair of shoes we offer.</p>
+                    <p>With a passion for fashion and a commitment to excellence, we carefully curate our collection to cater to every taste and occasion. Whether you're looking for casual sneakers, elegant heels, or sturdy boots, we've got you covered.</p>
+                    <h4>Our Mission</h4>
+                    <p>Our mission is to help you step out in style, confident and ready to conquer the world. We believe that the right pair of shoes can elevate your look and boost your confidence, and we're here to make that happen.</p>
+                    <h4>Our Values</h4>
+                    <ul>
+                        <li>Quality Craftsmanship</li>
+                        <li>Customer Satisfaction</li>
+                        <li>Trendsetting Designs</li>
+                        <li>Comfort and Durability</li>
+                    </ul>
+                    <h4>Our Collection</h4>
+                    <p>Explore our diverse range of shoes, carefully selected to meet your every need. From everyday essentials to statement pieces, we offer a variety of styles, colors, and sizes to suit your preferences.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+
 
 <!-- Services Section -->
 <section id="services">
